@@ -384,7 +384,7 @@ class INSSearchBar : UIView, UITextFieldDelegate, UIGestureRecognizerDelegate
 	
 	func textDidChange(notification: NSNotification?)
 	{
-		var hasText = countElements(self.searchField.text as String) != 0
+		var hasText: Bool = countElements(self.searchField.text as String) != 0
 		
 		if hasText
 		{
