@@ -11,4 +11,6 @@ The search bar is designed as a standalone component that can be easily drag'n'd
 
 For a story behind this control see http://salanki.com/insomniac/2014/06/03/the-search-bar-experiment/
 
+The Objective-C version can be found at https://github.com/berlininsomniac/INSSearchBar
+
 06.11.2014 Berlin Insomniac
