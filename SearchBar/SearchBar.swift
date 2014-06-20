@@ -72,6 +72,14 @@ protocol INSSearchBarDelegate
 	*/
 	
 	func searchBar(searchBar: INSSearchBar, didEndTransitioningFromState previousState: INSSearchBarState)
+
+	/**
+	*  The delegate is informed that the search bar's return key was pressed. This should be used to start querries.
+	*
+	*  @param searchBar        The search bar whose return key was pressed.
+	*/
+	
+	func searchBarDidTapReturn(searchBar: INSSearchBar)
 }
 
 let kINSSearchBarInset: CGFloat = 11.0
@@ -442,6 +450,18 @@ class INSSearchBar : UIView, UITextFieldDelegate, UIGestureRecognizerDelegate
 					})
 			}
 		}
+	}
+	
+	func textFieldShouldReturn(textField: UITextField) -> Bool
+	{
+		var retVal: Bool = true;
+	
+		if let delegate = self.delegate
+		{
+			delegate.searchBarDidTapReturn(self)
+		}
+	
+		return retVal
 	}
 	
 	func keyboardWillShow(notification: NSNotification?)

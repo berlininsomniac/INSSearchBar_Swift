@@ -64,5 +64,11 @@ class ViewController: UIViewController, INSSearchBarDelegate
 	{
 		// Do whatever you deem necessary.
 	}
+	
+	func searchBarDidTapReturn(searchBar: INSSearchBar)
+	{
+		// Do whatever you deem necessary.
+		// Access the text from the search bar like searchBar.searchField.text	
+	}
 }
 
