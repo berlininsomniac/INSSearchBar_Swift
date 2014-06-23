@@ -80,6 +80,16 @@ protocol INSSearchBarDelegate
 	*/
 	
 	func searchBarDidTapReturn(searchBar: INSSearchBar)
+	
+	/**
+	*  The delegate is informed that the search bar's text has changed.
+	*
+	*  Important: If the searchField property is explicitly supplied with a delegate property this method will not be called.
+	*
+	*  @param searchBar        The search bar whose text did change.
+	*/
+	
+	func searchBarTextDidChange(searchBar: INSSearchBar)
 }
 
 let kINSSearchBarInset: CGFloat = 11.0
@@ -449,6 +459,11 @@ class INSSearchBar : UIView, UITextFieldDelegate, UIGestureRecognizerDelegate
 							})
 					})
 			}
+		}
+		
+		if let delegate = self.delegate
+		{
+			delegate.searchBarTextDidChange(self)
 		}
 	}
 	

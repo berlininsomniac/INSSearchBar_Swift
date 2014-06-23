@@ -70,5 +70,11 @@ class ViewController: UIViewController, INSSearchBarDelegate
 		// Do whatever you deem necessary.
 		// Access the text from the search bar like searchBar.searchField.text	
 	}
+	
+	func searchBarTextDidChange(searchBar: INSSearchBar)
+	{
+		// Do whatever you deem necessary.
+		// Access the text from the search bar like searchBar.searchField.text
+	}
 }
 
