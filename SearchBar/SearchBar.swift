@@ -169,7 +169,7 @@ class INSSearchBar : UIView, UITextFieldDelegate, UIGestureRecognizerDelegate
 	*/
 	var originalFrame: CGRect
 		
-	init(frame: CGRect)
+	override init(frame: CGRect)
 	{
 		self.searchFrame = UIView(frame: CGRectZero)
 		self.searchField = UITextField(frame: CGRectZero)
@@ -258,6 +258,10 @@ class INSSearchBar : UIView, UITextFieldDelegate, UIGestureRecognizerDelegate
 		NSNotificationCenter.defaultCenter().addObserver(self, selector: "keyboardWillHide:", name: UIKeyboardWillHideNotification, object: nil)
 		NSNotificationCenter.defaultCenter().addObserver(self, selector: "textDidChange:", name: UITextFieldTextDidChangeNotification, object: self.searchField)
 	}
+
+	required init(coder aDecoder: NSCoder) {
+	    fatalError("init(coder:) has not been implemented")
+	}
 	
 	deinit
 	{
@@ -293,8 +297,7 @@ class INSSearchBar : UIView, UITextFieldDelegate, UIGestureRecognizerDelegate
 	{
 		if (self.searchField.isFirstResponder())
 		{
-			self.window.endEditing(true)
-			
+            self.window?.endEditing(true)
 			if (self.state == INSSearchBarState.SearchBarVisible && countElements(self.searchField.text as String) == 0)
 			{
 				self.hideSearchBar(nil)
@@ -352,7 +355,7 @@ class INSSearchBar : UIView, UITextFieldDelegate, UIGestureRecognizerDelegate
 	{
 		if self.state == INSSearchBarState.SearchBarVisible || self.state == INSSearchBarState.SearchBarHasContent
 		{
-			self.window.endEditing(true)
+            self.window?.endEditing(true)
 			
 			if let delegate = self.delegate
 			{
@@ -483,7 +486,7 @@ class INSSearchBar : UIView, UITextFieldDelegate, UIGestureRecognizerDelegate
 	{
 		if self.searchField.isFirstResponder()
 		{
-			self.window.rootViewController.view.addGestureRecognizer(self.keyboardDismissGestureRecognizer)
+            self.window?.rootViewController?.view.addGestureRecognizer(self.keyboardDismissGestureRecognizer)
 		}
 	}
 	
@@ -491,7 +494,7 @@ class INSSearchBar : UIView, UITextFieldDelegate, UIGestureRecognizerDelegate
 	{
 		if self.searchField.isFirstResponder()
 		{
-			self.window.rootViewController.view.removeGestureRecognizer(self.keyboardDismissGestureRecognizer)
+            self.window?.rootViewController?.view.addGestureRecognizer(self.keyboardDismissGestureRecognizer)
 		}
 	}
 
