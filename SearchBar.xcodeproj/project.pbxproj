@@ -7,16 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E204DB11946217D008D3620 /* NavBarIconSearch_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E204DA71946217D008D3620 /* NavBarIconSearch_blue@2x.png */; };
-		1E204DB21946217D008D3620 /* NavBarIconSearchBar_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E204DA81946217D008D3620 /* NavBarIconSearchBar_blue.png */; };
-		1E204DB31946217D008D3620 /* NavBarIconSearchBar_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E204DA91946217D008D3620 /* NavBarIconSearchBar_blue@2x.png */; };
-		1E204DB41946217D008D3620 /* NavBarIconSearchBar2_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E204DAA1946217D008D3620 /* NavBarIconSearchBar2_blue.png */; };
-		1E204DB51946217D008D3620 /* NavBarIconSearchBar2_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E204DAB1946217D008D3620 /* NavBarIconSearchBar2_blue@2x.png */; };
-		1E204DB61946217D008D3620 /* NavBarIconSearchCircle_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E204DAC1946217D008D3620 /* NavBarIconSearchCircle_blue.png */; };
-		1E204DB71946217D008D3620 /* NavBarIconSearchCircle_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E204DAD1946217D008D3620 /* NavBarIconSearchCircle_blue@2x.png */; };
-		1E204DB81946217D008D3620 /* NavBarIconSearch_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E204DAE1946217D008D3620 /* NavBarIconSearch_blue.png */; };
-		1E204DB91946217D008D3620 /* NavBarIconSearch_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E204DAF1946217D008D3620 /* NavBarIconSearch_white@2x.png */; };
-		1E204DBA1946217D008D3620 /* NavBarIconSearch_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E204DB01946217D008D3620 /* NavBarIconSearch_white.png */; };
 		1E7623F91945F27400C92BAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7623F81945F27400C92BAF /* AppDelegate.swift */; };
 		1E7623FB1945F27400C92BAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7623FA1945F27400C92BAF /* ViewController.swift */; };
 		1E7623FE1945F27400C92BAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E7623FC1945F27400C92BAF /* Main.storyboard */; };
@@ -36,16 +26,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1E204DA71946217D008D3620 /* NavBarIconSearch_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavBarIconSearch_blue@2x.png"; sourceTree = "<group>"; };
-		1E204DA81946217D008D3620 /* NavBarIconSearchBar_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavBarIconSearchBar_blue.png; sourceTree = "<group>"; };
-		1E204DA91946217D008D3620 /* NavBarIconSearchBar_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavBarIconSearchBar_blue@2x.png"; sourceTree = "<group>"; };
-		1E204DAA1946217D008D3620 /* NavBarIconSearchBar2_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavBarIconSearchBar2_blue.png; sourceTree = "<group>"; };
-		1E204DAB1946217D008D3620 /* NavBarIconSearchBar2_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavBarIconSearchBar2_blue@2x.png"; sourceTree = "<group>"; };
-		1E204DAC1946217D008D3620 /* NavBarIconSearchCircle_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavBarIconSearchCircle_blue.png; sourceTree = "<group>"; };
-		1E204DAD1946217D008D3620 /* NavBarIconSearchCircle_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavBarIconSearchCircle_blue@2x.png"; sourceTree = "<group>"; };
-		1E204DAE1946217D008D3620 /* NavBarIconSearch_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavBarIconSearch_blue.png; sourceTree = "<group>"; };
-		1E204DAF1946217D008D3620 /* NavBarIconSearch_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavBarIconSearch_white@2x.png"; sourceTree = "<group>"; };
-		1E204DB01946217D008D3620 /* NavBarIconSearch_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavBarIconSearch_white.png; sourceTree = "<group>"; };
 		1E7623F31945F27400C92BAF /* SearchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E7623F71945F27400C92BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E7623F81945F27400C92BAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -100,18 +80,6 @@
 				1E7623F81945F27400C92BAF /* AppDelegate.swift */,
 				1E7623FA1945F27400C92BAF /* ViewController.swift */,
 				1EF7DC391945F64E0014C3C2 /* SearchBar.swift */,
-				1E7623FC1945F27400C92BAF /* Main.storyboard */,
-				1E204DA71946217D008D3620 /* NavBarIconSearch_blue@2x.png */,
-				1E204DA81946217D008D3620 /* NavBarIconSearchBar_blue.png */,
-				1E204DA91946217D008D3620 /* NavBarIconSearchBar_blue@2x.png */,
-				1E204DAA1946217D008D3620 /* NavBarIconSearchBar2_blue.png */,
-				1E204DAB1946217D008D3620 /* NavBarIconSearchBar2_blue@2x.png */,
-				1E204DAC1946217D008D3620 /* NavBarIconSearchCircle_blue.png */,
-				1E204DAD1946217D008D3620 /* NavBarIconSearchCircle_blue@2x.png */,
-				1E204DAE1946217D008D3620 /* NavBarIconSearch_blue.png */,
-				1E204DAF1946217D008D3620 /* NavBarIconSearch_white@2x.png */,
-				1E204DB01946217D008D3620 /* NavBarIconSearch_white.png */,
-				1E7623FF1945F27400C92BAF /* Images.xcassets */,
 				1E7623F61945F27400C92BAF /* Supporting Files */,
 			);
 			path = SearchBar;
@@ -120,6 +88,8 @@
 		1E7623F61945F27400C92BAF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1E7623FC1945F27400C92BAF /* Main.storyboard */,
+				1E7623FF1945F27400C92BAF /* Images.xcassets */,
 				1E7623F71945F27400C92BAF /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -191,6 +161,7 @@
 				TargetAttributes = {
 					1E7623F21945F27400C92BAF = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = R33X9HN7ET;
 						LastSwiftMigration = 0830;
 					};
 					1E7624041945F27400C92BAF = {
@@ -224,18 +195,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E204DB21946217D008D3620 /* NavBarIconSearchBar_blue.png in Resources */,
 				1E7623FE1945F27400C92BAF /* Main.storyboard in Resources */,
-				1E204DBA1946217D008D3620 /* NavBarIconSearch_white.png in Resources */,
-				1E204DB81946217D008D3620 /* NavBarIconSearch_blue.png in Resources */,
-				1E204DB31946217D008D3620 /* NavBarIconSearchBar_blue@2x.png in Resources */,
-				1E204DB11946217D008D3620 /* NavBarIconSearch_blue@2x.png in Resources */,
-				1E204DB61946217D008D3620 /* NavBarIconSearchCircle_blue.png in Resources */,
-				1E204DB71946217D008D3620 /* NavBarIconSearchCircle_blue@2x.png in Resources */,
-				1E204DB91946217D008D3620 /* NavBarIconSearch_white@2x.png in Resources */,
 				1E7624001945F27400C92BAF /* Images.xcassets in Resources */,
-				1E204DB51946217D008D3620 /* NavBarIconSearchBar2_blue@2x.png in Resources */,
-				1E204DB41946217D008D3620 /* NavBarIconSearchBar2_blue.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +339,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = R33X9HN7ET;
 				INFOPLIST_FILE = SearchBar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -392,7 +353,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = R33X9HN7ET;
 				INFOPLIST_FILE = SearchBar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -215,25 +215,25 @@ class INSSearchBar : UIView, UITextFieldDelegate, UIGestureRecognizerDelegate
 		
 		self.searchImageViewOn.frame = searchImageViewOnContainerView.bounds
 		self.searchImageViewOn.alpha = 0.0
-		self.searchImageViewOn.image = UIImage(named: "NavBarIconSearch_blue")
+		self.searchImageViewOn.image = UIImage(named: "NavBarIconSearch_black")
 		
 		searchImageViewOnContainerView.addSubview(self.searchImageViewOn)
 
 		self.searchImageCircle.frame = CGRect(x: 0.0, y: 0.0, width: 18.0, height: 18.0)
 		self.searchImageCircle.alpha = 0.0
-		self.searchImageCircle.image = UIImage(named: "NavBarIconSearchCircle_blue")
+		self.searchImageCircle.image = UIImage(named: "NavBarIconSearchCircle_black")
 		
 		searchImageViewOnContainerView.addSubview(self.searchImageCircle)
 
 		self.searchImageCrossLeft.frame = CGRect(x: 14.0, y: 14.0, width: 8.0, height: 8.0)
 		self.searchImageCrossLeft.alpha = 0.0
-		self.searchImageCrossLeft.image = UIImage(named: "NavBarIconSearchBar_blue")
+		self.searchImageCrossLeft.image = UIImage(named: "NavBarIconSearchBar_black")
 		
 		searchImageViewOnContainerView.addSubview(self.searchImageCrossLeft)
 
 		self.searchImageCrossRight.frame = CGRect(x: 7.0, y: 7.0, width: 8.0, height: 8.0)
 		self.searchImageCrossRight.alpha = 0.0
-		self.searchImageCrossRight.image = UIImage(named: "NavBarIconSearchBar2_blue")
+		self.searchImageCrossRight.image = UIImage(named: "NavBarIconSearchBar2_black")
 		
 		searchImageViewOnContainerView.addSubview(self.searchImageCrossRight)
 
