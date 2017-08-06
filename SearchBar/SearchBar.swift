@@ -368,7 +368,7 @@ class INSSearchBar : UIView, UITextFieldDelegate, UIGestureRecognizerDelegate
 			
 			UIView.animate(withDuration: kINSSearchBarAnimationStepDuration, animations: {
 				
-				if let delegate = self.delegate
+				if self.delegate != nil
 				{
 					self.frame = self.originalFrame
 				}
@@ -411,6 +411,7 @@ class INSSearchBar : UIView, UITextFieldDelegate, UIGestureRecognizerDelegate
 		{
 			if self.state == INSSearchBarState.searchBarVisible
 			{
+                
 				self.state = INSSearchBarState.transitioning;
 				
 				self.searchImageViewOn.alpha = 0.0
@@ -439,6 +440,7 @@ class INSSearchBar : UIView, UITextFieldDelegate, UIGestureRecognizerDelegate
 		{
 			if self.state == INSSearchBarState.searchBarHasContent
 			{
+                
 				self.state = INSSearchBarState.transitioning;
 				
 				UIView.animate(withDuration: kINSSearchBarAnimationStepDuration, animations: {
